@@ -1,0 +1,19 @@
+# Entorno virtual y archivos que Python genera solo
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Tu cuaderno personal: puede tener resultados de datos reales
+datos/
+
+# Claves y secretos (para cuando conectes la API de Claude). NUNCA se suben.
+.env
+.streamlit/secrets.toml
+
+# Configuración del editor
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
